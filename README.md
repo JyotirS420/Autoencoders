@@ -6,7 +6,7 @@ This Python script implements and trains three types of autoencoders: **regular 
 The dataset used in this project consists of two folders:
 
 clean: Contains the clean MNIST images.
-aug: Contains the augmented versions of the clean MNIST images. Download the dataset from the following link: [Download Dataset]()
+aug: Contains the augmented versions of the clean MNIST images. Download the dataset from the following link: [Download Dataset](https://drive.google.com/file/d/1QUJ17BOutB2HczZCzIKecgzvP2GEvrTw/view?usp=drive_link).
 
 ## Requirements
 Python 3.x
