@@ -24,19 +24,16 @@ Checkpoints are saved as required.
 
 ## Implementation
 
-Denoising Autoencoder (AE):
-
+**Denoising Autoencoder (AE):**  
 Encoder and decoder follow ResNet style with residual connections.
 Design choices are flexible except for the specified residual connections.
 
-Denoising Variational Autoencoder (VAE):
-
+**Denoising Variational Autoencoder (VAE):**  
 Similar architecture to the AE but with VAE-specific modifications.
 Encoder outputs logits/embeddings, which are then sampled for the VAE loss calculation.
 Additional TSNE plots are generated for sampled logits/embeddings.
 
-Conditional Variational Autoencoder (CVAE) (Bonus Question):
-
+**Conditional Variational Autoencoder (CVAE) (Bonus Question):**  
 Implements a CVAE to generate one of the classes of the MNIST dataset at inference time, given the class label.
 Architecture includes label conditioning in both the encoder and decoder.
 
